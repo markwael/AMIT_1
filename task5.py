@@ -25,7 +25,7 @@ def check_len(z):
     if len(os.listdir(path)) == 0:
          print("Directory is empty")
     else:
-        print("Directory contains files")
+        print("Directory contains files\n"+ path)
         return z
 print(check_len(path))
 
