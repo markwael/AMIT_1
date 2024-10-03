@@ -6,3 +6,4 @@ second_word = words[1]
 message = f"{first_word} {second_word}"
 print(message) 
 
+#approved---good job
