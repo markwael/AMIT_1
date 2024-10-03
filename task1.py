@@ -16,5 +16,12 @@ elif z[1] == "com":
     print("Commercial Domain")
 else:
     print("Other Domain")
-     
+'''
+here your output
+True
+Extract Username: Amit_ml
+Extract Domain: edu
+Educational Domain
 
+'''
+# Great job thank you now i think you can convert this code to be a function 
