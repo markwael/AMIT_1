@@ -7,3 +7,4 @@ z = second_word.replace ( "I" , "E" ).replace ( "O" , "U" )
 message = f"{first_word} {z} "
 print(message) 
 
+#approved ---good job
