@@ -50,3 +50,5 @@ for file_name in files_to_delete:
     except Exception as e:
         print(f'Error deleting {file_path}: {e}')
 print(check_len(path))
+
+#great job you can convert this code to be  function take your path and number of folders .......
