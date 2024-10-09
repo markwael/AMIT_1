@@ -31,26 +31,3 @@ class chatbott:
             if user_input == "goodbye":
                 break
 chatbott()
-
-
-
-# import random
-# class pas:
-#     def __init__(self,lenght):
-#         self.lenght =lenght
-#         self.char= "abcdefghijklmnopqrstuvwyzABCDEFGHIJKLMNOPQRSTUVWYZ1234567890!@#$%^&*"
-
-#     def gen(self):
-#         num_of_char = len(self.char)
-#         self.password=""
-
-#         for i in range(self.lenght):
-#             rand_index= random.randrange(0,num_of_char)
-#             self.password += self.char[rand_index]
-#         return  self.password
-    
-# if __name__ == "__main__":
-#     pass_lenght= 8
-#     random_pass= pas(pass_lenght) 
-#     print(random_pass.gen())
-
