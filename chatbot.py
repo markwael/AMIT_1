@@ -1,16 +1,7 @@
 import random 
 class chatbott:
-    def __init__(self):
-        self.responses = ""
-        self.user_input = ""
-    # Predefined responses
-    responses = {
-        "hello": ["Hello!", "Hi there!", "Greetings!"],
-        "how are you": ["I'm doing well, thank you!", "I'm fine, how about you?"],
-        "goodbye": ["Goodbye!", "See you later!", "Farewell!"],
-        "default": ["I'm sorry, I didn't understand.", "Could you please rephrase that?"]
-    }
-
+    def __init__(self,responses):
+        self.responses = responses
     # Function to get a response based on user input
     def get_respon(self,user_input):
         for key in self.responses:
@@ -30,4 +21,12 @@ class chatbott:
             
             if user_input == "goodbye":
                 break
+# Predefined responses
+responses = {
+    "hello": ["Hello!", "Hi there!", "Greetings!"],
+    "how are you": ["I'm doing well, thank you!", "I'm fine, how about you?"],
+    "goodbye": ["Goodbye!", "See you later!", "Farewell!"],
+    "default": ["I'm sorry, I didn't understand.", "Could you please rephrase that?"]
+}
+
 chatbott()
