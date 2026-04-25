@@ -24,6 +24,7 @@ class chatbott:
 # Predefined responses
 responses = {
     "hello": ["Hello!", "Hi there!", "Greetings!"],
+    "hi": ["Hello!", "Hi there!", "Greetings!"],
     "how are you": ["I'm doing well, thank you!", "I'm fine, how about you?"],
     "goodbye": ["Goodbye!", "See you later!", "Farewell!"],
     "default": ["I'm sorry, I didn't understand.", "Could you please rephrase that?"]
