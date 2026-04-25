@@ -6,6 +6,8 @@ second_word = words[1]
 z = second_word.replace ( "E" , "A" ).replace ( "U" , "O" )
 
 message = f"{first_word} {z} "
+
 print(message) 
 
 #approved --good job
+
